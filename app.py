@@ -1,4 +1,4 @@
-%%writefile App.py
+
 import streamlit as st
 from textblob import TextBlob
 from PIL import Image
