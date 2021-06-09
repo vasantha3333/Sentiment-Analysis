@@ -4,6 +4,8 @@ from textblob import TextBlob
 from PIL import Image
 def main():
   st.title("Sentiment Analysis")
+  img=Image.open("sentiment-analysis_1.jpg")
+  st.image(img)
   st.write("sentiment analysis")
   text=st.text_input("Enter a sentence--")
   if st.button("Analysis"):
